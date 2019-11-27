@@ -1,0 +1,70 @@
+h1{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    border-bottom-style: groove;
+	text-shadow: 1px 1px #000000;
+	margin: 5px
+}	
+
+logo {
+	background: url(A.PNG) no-repeat;
+	background-size: 10px 10px;
+	resize: both;
+	}
+
+vr{
+	
+    position: relative;
+    background-color: #000;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 430px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+    
+
+
+p{
+	
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+body  {
+ background-clip: content-box;
+  background-image: radial-gradient(circle,yellow, green);
+}
+nav{
+	border-color: #FFCE00;
+	padding: 30px 60px 45px 85px;
+	font-family: 'Playfair Display', serif;
+}
+
+.div1 {
+	width: 669px;
+	height: 280px;
+	border: 5px solid rgba(1,26,0,1.00);
+	background: rgba(181,240,188,1.00)
+}
+.jumbotron {
+	 
+    background-color:transparent !important; 
+	background-blend-mode: black;
+}
+footer{
+	background-clip: border-box;
+	border-color: hsl(14, 100%, 53%);
+	background:rgba(236,1,1,1.00);
+	border: 5px solid rgba(1,26,0,1.00);
+}
+
+@media (max-width: 575.98px) { 
+	h1{
+		 padding: 1px;
+		width: 320px;
+	}
+
+}
